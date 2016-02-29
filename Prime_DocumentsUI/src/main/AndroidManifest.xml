@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pierx.documentsui">
+
+    <overlay android:priority="60" android:targetPackage="com.android.documentsui" />
+
+</manifest>

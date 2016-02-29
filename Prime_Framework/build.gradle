@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "com.pierx.prime.framework"
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+        light {
+            applicationId 'com.pierx.prime.framework.light'
+            manifestPlaceholders = [ priorityLabel:"90" ]
+        }
+        dark {
+            applicationId 'com.pierx.prime.framework.dark'
+            manifestPlaceholders = [ priorityLabel:"90" ]
+        }
+        black {
+            applicationId 'com.pierx.prime.framework.black'
+            manifestPlaceholders = [ priorityLabel:"90" ]
+        }
+        light2 {
+            applicationId 'com.pierx.prime.framework2.light'
+            manifestPlaceholders = [ priorityLabel:"50" ]
+        }
+        dark2 {
+            applicationId 'com.pierx.prime.framework2.dark'
+            manifestPlaceholders = [ priorityLabel:"50" ]
+        }
+        black2 {
+            applicationId 'com.pierx.prime.framework2.black'
+            manifestPlaceholders = [ priorityLabel:"50" ]
+        }
+    }
+}
+
+dependencies {
+}

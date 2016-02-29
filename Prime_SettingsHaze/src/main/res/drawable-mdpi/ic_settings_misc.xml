@@ -1,0 +1,26 @@
+﻿<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="oval">
+            <solid android:color="?android:colorAccent" />
+            <size
+                android:width="56dip"
+                android:height="56dip" />
+        </shape>
+    </item>
+    <item
+        android:bottom="8dp"
+        android:left="8dp"
+        android:right="8dp"
+        android:top="8dp">
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="48dp"
+            android:height="48dp"
+            android:viewportHeight="48"
+            android:viewportWidth="48">
+            <path
+                android:fillColor="?android:attr/colorForeground"
+                android:pathData="M 24 4 C 35.0456949966 4 44 12.9543050034 44 24 C 44 35.0456949966 35.0456949966 44 24 44 C 12.9543050034 44 4 35.0456949966 4 24 C 4 12.9543050034 12.9543050034 4 24 4 Z" />
+        </vector>
+    </item>
+</layer-list>

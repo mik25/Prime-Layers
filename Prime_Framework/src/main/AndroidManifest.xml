@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prime.pierx.framework">
+
+    <overlay android:priority="${priorityLabel}" android:targetPackage="android" />
+
+</manifest>

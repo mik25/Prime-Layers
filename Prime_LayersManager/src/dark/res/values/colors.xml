@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary & Accent colors -->
+    <color name="primary">@android:color/holo_blue_light</color>
+    <color name="primary_dark">@android:color/holo_blue_dark</color>
+    <color name="primary_light">@android:color/holo_blue_light</color>
+    <color name="accent">@android:color/holo_blue_bright</color>
+
+    <color name="button_material_dark">#ff5a595b</color>
+    <color name="button_material_light">#ff5a595b</color>
+
+    <!-- Text colors -->
+    <color name="textColorPrimary">#ffffffff</color>
+    <color name="textColorInverse">#de000000</color>
+    <color name="textColorSecondary">#b3ffffff</color>
+    <color name="actionbar_text_color">#ffffffff</color>
+    <color name="actionbar_text_secondary_color">#ffffffff</color>
+    <color name="tutorial_text_primary_color">#ffffffff</color>
+    <color name="tutorial_text_secondary_color">#ffffffff</color>
+
+    <!-- OLD REMOVE SOON -->
+    <color name="text_color_inverse">#de000000</color>
+    <color name="text_color_secondary">#b3ffffff</color>
+
+    <!-- Backgrounds -->
+    <color name="transparent">#00000000</color>
+    <color name="background">@android:color/background_dark</color>
+    <color name="card_background">@android:color/holo_red_dark</color>
+    <color name="navigationDrawerBackground">@android:color/holo_red_dark</color>
+
+    <color name="tutorial_background_1">#ff00BCD4</color>
+    <color name="tutorial_background_2">#ff4CAF50</color>
+    <color name="tutorial_background_3">#ff5C6BC0</color>
+    <color name="tutorial_background_4">#ffF44336</color>
+    <color name="tutorial_background_5">#ffFF9800</color>
+    <color name="tutorial_background_6">#ff607D8B</color>
+
+    <!-- other colors -->
+    <color name="white">#ffffff</color>
+    <color name="fab_tint">#ffffff</color>
+</resources>

@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pierx.prime_supersu">
+
+    <overlay android:priority="60" android:targetPackage="eu.chainfire.supersu" />
+
+</manifest>

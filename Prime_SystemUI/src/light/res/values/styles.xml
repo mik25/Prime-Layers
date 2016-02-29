@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="systemui_theme" parent="@android:style/Theme.Material.Light">
+        <item name="android:colorControlActivated">@android:color/holo_green_light</item>
+    </style>
+</resources>

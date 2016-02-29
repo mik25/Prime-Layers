@@ -1,0 +1,124 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.pierx.prime_frameworkaccent"
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+/*        blue {
+            applicationId 'com.pierx.prime.framework.accent.blue'
+        }
+        green {
+            applicationId 'com.pierx.prime.framework.accent.green'
+        }
+        red {
+            applicationId 'com.pierx.prime.framework.accent.red'
+        }
+        amber {
+            applicationId 'com.pierx.prime.framework.accent.amber'
+        }
+        bluegrey {
+            applicationId 'com.pierx.prime.framework.accent.bluegrey'
+        }
+        brown {
+            applicationId 'com.pierx.prime.framework.accent.brown'
+        }
+        cyan {
+            applicationId 'com.pierx.prime.framework.accent.cyan'
+        }
+        deeporange {
+            applicationId 'com.pierx.prime.framework.accent.deeporange'
+        }
+        deeppurple {
+            applicationId 'com.pierx.prime.framework.accent.deeppurple'
+        }
+        grey {
+            applicationId 'com.pierx.prime.framework.accent.grey'
+        }
+        indigo {
+            applicationId 'com.pierx.prime.framework.accent.indigo'
+        }
+        lightblue {
+            applicationId 'com.pierx.prime.framework.accent.lightblue'
+        }
+        lightgreen {
+            applicationId 'com.pierx.prime.framework.accent.lightgreen'
+        }
+        lime {
+            applicationId 'com.pierx.prime.framework.accent.lime'
+        }
+        orange {
+            applicationId 'com.pierx.prime.framework.accent.orange'
+        }
+        pink {
+            applicationId 'com.pierx.prime.framework.accent.pink'
+        }
+        purple {
+            applicationId 'com.pierx.prime.framework.accent.purple'
+        }
+        teal {
+            applicationId 'com.pierx.prime.framework.accent.teal'
+        }
+        yellow {
+            applicationId 'com.pierx.prime.framework.accent.yellow'
+        }
+        QuantumGoogleBlue {
+            applicationId 'com.pierx.prime.framework.accent.QuantumGoogleBlue'
+        }
+        QuantumGoogleGreen {
+            applicationId 'com.pierx.prime.framework.accent.QuantumGoogleGreen'
+        }
+        QuantumGoogleRed {
+            applicationId 'com.pierx.prime.framework.accent.QuantumGoogleRed'
+        }
+        QuantumGoogleYellow {
+            applicationId 'com.pierx.prime.framework.accent.QuantumGoogleYellow'
+        }
+        Alizarin {
+            applicationId 'com.pierx.prime.framework.accent.Alizarin'
+        }
+        Amethyst {
+            applicationId 'com.pierx.prime.framework.accent.Amethyst'
+        }
+        Carrot {
+            applicationId 'com.pierx.prime.framework.accent.Carrot'
+        }
+        Emerland {
+            applicationId 'com.pierx.prime.framework.accent.Emerland'
+        }
+        Peterriver {
+            applicationId 'com.pierx.prime.framework.accent.Peterriver'
+        }
+        Sunflower {
+            applicationId 'com.pierx.prime.framework.accent.Sunflower'
+        }
+        Turquoise {
+            applicationId 'com.pierx.prime.framework.accent.Turquoise'
+        }
+        Wetasphalt {
+            applicationId 'com.pierx.prime.framework.accent.Wetasphalt'
+        }
+        RoyalBlue {
+            applicationId 'com.pierx.prime.framework.accent.RoyalBlue'
+        }*/
+        DeepDarkGrey {
+            applicationId 'com.pierx.prime.framework.accent.DeepDarkGrey'
+        }
+    }
+}
+
+dependencies {
+}

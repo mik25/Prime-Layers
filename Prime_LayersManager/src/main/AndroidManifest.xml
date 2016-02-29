@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.pierx.layers">
+
+    <overlay android:priority="60" android:targetPackage="com.lovejoy777.rroandlayersmanager" />
+
+</manifest>

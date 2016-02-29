@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SuperSU.Dialog.Prompt" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:backgroundTint">@android:color/background_dark</item>
+    </style>
+    <style name="Sherlock.__Theme.Material" parent="@android:style/Theme.Material" />
+    <style name="Sherlock.__Theme.Material.Light" parent="@android:style/Theme.Material" />
+    <style name="Sherlock.__Theme.Material.Light.DarkActionBar" parent="@android:style/Theme.Material" />
+    <style name="Theme.SuperSU.Material.Light.DarkActionBar.Dialog" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorPrimary">@android:color/holo_blue_light</item>
+        <item name="android:colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
+    <style name="Theme.SuperSU.Material.Light.DarkActionBar.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:colorPrimary">@android:color/holo_blue_light</item>
+        <item name="android:colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
+</resources>

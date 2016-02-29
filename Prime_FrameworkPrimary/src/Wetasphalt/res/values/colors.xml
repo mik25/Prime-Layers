@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="holo_blue_bright">#ff34495e</color>-->
+    <color name="holo_blue_light">#ff34495e</color>
+    <color name="holo_blue_dark">#ff2c3e50</color>
+    <color name="holo_green_light">#8b34495e</color>
+</resources>

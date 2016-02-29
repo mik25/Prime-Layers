@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="qs_detail_button">#ffb0bec5</color>
+    <color name="qs_detail_button_white">#b3ffffff</color>
+    <color name="dark_mode_icon_color_single_tone">#99000000</color>
+    <color name="dark_mode_icon_color_dual_tone_background">#3d000000</color>
+    <color name="dark_mode_icon_color_dual_tone_fill">#7a000000</color>
+    <color name="light_mode_icon_color_single_tone">#ffffffff</color>
+    <color name="light_mode_icon_color_dual_tone_background">#4dffffff</color>
+    <color name="light_mode_icon_color_dual_tone_fill">#ffffffff</color>
+    <color name="volume_panel_background_color">@android:color/holo_red_dark</color>
+    <color name="system_accent_color">@android:color/holo_blue_light</color>
+    <color name="qs_detail_progress_track">@android:color/holo_green_light</color>
+    <color name="keyguard_avatar_frame_pressed_color">@android:color/holo_blue_light</color>
+    <color name="screen_pinning_request_bg">@android:color/holo_blue_light</color>
+    <color name="screen_pinning_nav_icon_highlight_outer">@android:color/holo_green_light</color>
+    <color name="fab_color">@android:color/holo_blue_light</color>
+    <color name="qs_text">@android:color/holo_red_dark</color>
+    <color name="qs_detail_transition">@android:color/holo_blue_light</color>
+    <color name="qs_user_detail_icon_muted">@android:color/holo_blue_light</color>
+    <color name="data_usage_graph_track">@android:color/holo_green_light</color>
+    <color name="system_primary_color">#ffffff</color>
+    <color name="system_secondary_color">#ffffffff</color>
+    <color name="qs_tile_divider">#00000000</color>
+    <color name="qs_tile_text">@android:color/holo_red_light</color>
+    <color name="qs_subhead">@android:color/holo_red_light</color>
+    <color name="qs_detail_empty">@android:color/holo_green_light</color>
+    <color name="data_usage_secondary">@android:color/background_dark</color>
+
+    <!--Marshmallow-->
+    <color name="zen_introduction_message_background">@android:color/holo_blue_bright</color>
+    <color name="volume_icon_color">@android:color/holo_blue_bright</color>
+    <color name="volume_settings_icon_color">@android:color/holo_blue_bright</color>
+    <color name="volume_slider_inactive">#ffb0bec5</color>
+    <color name="data_usage_graph_warning">#ffd32f2f</color>
+    <color name="status_bar_clock_color">#ffffffff</color>
+    <color name="batterymeter_bolt_color">#ff4caf50</color>
+    <color name="exposed_headsup_scrim_start">#20000000</color>
+    <color name="exposed_headsup_scrim_end">#00000000</color>
+    <color name="visualizer_fill_color">@android:color/holo_blue_bright</color>
+</resources>

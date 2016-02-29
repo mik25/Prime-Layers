@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="material_grey_50">@android:color/background_dark</color>
+    <color name="material_grey_300">@android:color/holo_blue_bright</color>
+    <color name="item_doc_grid_background">@android:color/background_dark</color>
+<!--    <color name="item_doc_grid_protect_background">#00000000</color>
+    &lt;!&ndash;<color name="item_doc_grid_overlay_activated">@android:color/holo_blue_light</color>&ndash;&gt;
+    <color name="item_doc_grid_overlay_disabled">#ff9e9e9e</color>
+    <color name="item_doc_list_overlay_disabled">#ffffffff</color>
+    &lt;!&ndash;<color name="item_doc_list_background_activated">@android:color/holo_blue_light</color>&ndash;&gt;
+    <color name="exposed_activity_background_color">@android:color/background_dark</color>
+    <color name="exposed_font_color_doc_grid">#ffffffff</color>
+    <color name="drawer_background_color">#ffffffff</color>-->
+</resources>

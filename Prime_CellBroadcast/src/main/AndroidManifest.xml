@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pierx.com.cellbroadcast">
+
+    <overlay android:targetPackage="com.android.cellbroadcastreceiver" android:priority="60" />
+
+</manifest>

@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pierx.prime.dialer">
+
+    <overlay android:targetPackage="com.android.dialer" android:priority="60" />
+
+</manifest>

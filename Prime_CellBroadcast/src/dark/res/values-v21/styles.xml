@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CellBroadcastSettingsTheme" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimaryDark">@android:color/holo_blue_light</item>
+        <item name="android:statusBarColor">@android:color/holo_blue_dark</item>
+    </style>
+</resources>

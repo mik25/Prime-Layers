@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pierx.prime"
+    android:process="com.android.Layers"
+    android:sharedUserId="android.uid.Prime">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/ThemeName">
+        <service
+            android:name="com.pierx.prime.Overlay"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.layers.plugins.PICK_OVERLAYS" />
+                <category android:name="Overlay" />
+            </intent-filter>
+
+        </service>
+
+        <meta-data
+            android:name="Layers_Name"
+            android:value="@string/ThemeName" />
+        <meta-data
+            android:name="Layers_Developer"
+            android:value="@string/ThemeAuthor" />
+        <meta-data
+            android:name="Layers_Description"
+            android:value="@string/ThemeDescription" />
+        <meta-data
+            android:name="Layers_WhatsNew"
+            android:value="@string/ThemeChangelog" />
+
+    </application>
+
+
+</manifest>

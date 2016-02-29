@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="settings_primary_text_color">#ffeeeeee</color>
+    <color name="settings_secondary_text_color">#ffbdbdbd</color>
+    <color name="setting_background_color">@android:color/background_dark</color>
+    <color name="actionbar_icon_color">#ffeeeeee</color>
+    <color name="actionbar_text_color">#ffeeeeee</color>
+    <color name="theme_color">@android:color/background_dark</color>
+    <color name="dialer_settings_color_dark">@android:color/background_dark</color>
+    <color name="theme_color_dark">@android:color/holo_blue_light</color>
+    <color name="actionbar_background_color">@android:color/holo_blue_dark</color>
+</resources>

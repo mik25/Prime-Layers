@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dialer_theme_color">@android:color/holo_blue_light</color>
+    <color name="dialer_theme_color_dark">@android:color/holo_blue_dark</color>
+    <color name="dialtacts_theme_color">@android:color/holo_blue_dark</color>
+    <color name="actionbar_background_color_dark">@android:color/holo_blue_dark</color>
+    <color name="call_log_voicemail_highlight_color">@android:color/holo_blue_light</color>
+    <color name="call_log_extras_text_color">@android:color/holo_blue_dark</color>
+    <color name="voicemail_playback_seek_bar_already_played">@android:color/holo_blue_light</color>
+    <color name="item_selected">@android:color/holo_green_light</color>
+    <color name="dialer_dialpad_touch_tint">@android:color/holo_green_light</color>
+    <color name="exposed_call_log_header">@android:color/holo_blue_light</color>
+    <color name="exposed_call_log_voicemail_status_action_text">@android:color/holo_blue_light</color>
+</resources>

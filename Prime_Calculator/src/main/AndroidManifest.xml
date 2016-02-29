@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prime.pierx.calculator">
+
+    <overlay android:priority="60" android:targetPackage="com.android.calculator2" />
+
+</manifest>

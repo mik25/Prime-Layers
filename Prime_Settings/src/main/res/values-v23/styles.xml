@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Preference Screens - m6.0 -->
+    <style name="PreferenceFragmentListSinglePane" parent="@*android:style/TextAppearance.Widget.ActionBar.Title">
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+        <item name="android:layout_marginEnd">0.0dip</item>
+    </style>
+</resources>

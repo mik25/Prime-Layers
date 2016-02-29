@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pierx.prime_whatsapp">
+
+    <overlay
+        android:priority="60"
+        android:targetPackage="com.whatsapp" />
+
+</manifest>

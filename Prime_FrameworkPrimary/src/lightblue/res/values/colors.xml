@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="holo_blue_bright">#ff03a9f4</color>    &lt;!&ndash;accent&ndash;&gt;-->
+    <color name="holo_blue_light">#ff03a9f4</color>     <!--200-->
+    <color name="holo_blue_dark">#ff0288d1</color>      <!--500-->
+    <color name="holo_green_light">#8003a9f4</color>    <!--50% material 500-->
+</resources>

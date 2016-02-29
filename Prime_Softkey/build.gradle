@@ -1,0 +1,109 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.pierx.prime_softkey"
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+        alpha {
+            applicationId 'com.pierx.prime_softkey.alpha'
+        }
+        alpha2 {
+            applicationId 'com.pierx.prime_softkey.alpha2'
+        }
+        beehive {
+            applicationId 'com.pierx.prime_softkey.beehive'
+        }
+        biohazard {
+            applicationId 'com.pierx.prime_softkey.biohazard'
+        }
+        os {
+            applicationId 'com.pierx.prime_softkey.os'
+        }
+        fallout {
+            applicationId 'com.pierx.prime_softkey.fallout'
+        }
+        fallout2 {
+            applicationId 'com.pierx.prime_softkey.fallout2'
+        }
+        punisher {
+            applicationId 'com.pierx.prime_softkey.punisher'
+        }
+        skull {
+            applicationId 'com.pierx.prime_softkey.skull'
+        }
+        broken {
+            applicationId 'com.pierx.prime_softkey.broken'
+        }
+        spidey {
+            applicationId 'com.pierx.prime_softkey.spidey'
+        }
+        shield {
+            applicationId 'com.pierx.prime_softkey.shield'
+        }
+        spidey {
+            applicationId 'com.pierx.prime_softkey.spidey'
+        }
+        fleurdelis {
+            applicationId 'com.pierx.prime_softkey.fleurdelis'
+        }
+        pirate {
+            applicationId 'com.pierx.prime_softkey.pirate'
+        }
+        windows {
+            applicationId 'com.pierx.prime_softkey.windows'
+        }
+        nin {
+            applicationId 'com.pierx.prime_softkey.nin'
+        }
+        invisible {
+            applicationId 'com.pierx.prime_softkey.invisible'
+        }
+        christmas {
+            applicationId 'com.pierx.prime_softkey.christmas'
+        }
+        christmas_tree {
+            applicationId 'com.pierx.prime_softkey.christmas_tree'
+        }
+        christmas_snowflake {
+            applicationId 'com.pierx.prime_softkey.christmas_snowflake'
+        }
+        christmas_santa {
+            applicationId 'com.pierx.prime_softkey.christmas_santa'
+        }
+        christmas_star {
+            applicationId 'com.pierx.prime_softkey.christmas_star'
+        }
+        christmas_candle {
+            applicationId 'com.pierx.prime_softkey.christmas_candle'
+        }
+        christmas_hat {
+            applicationId 'com.pierx.prime_softkey.christmas_hat'
+        }
+        OnePiece {
+            applicationId 'com.pierx.prime_softkey.OnePiece'
+        }
+        Xperia {
+            applicationId 'com.pierx.prime_softkey.Xperia'
+        }
+        BabyMetal {
+            applicationId 'com.pierx.prime_softkey.BabyMetal'
+        }
+    }
+}
+
+dependencies {
+}

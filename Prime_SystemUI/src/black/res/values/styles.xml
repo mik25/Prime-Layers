@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.Material.Notification.Parenthetical"
+        parent="@android:style/TextAppearance.Material.Notification">
+        <item name="android:textColor">#80ffffff</item>
+    </style>
+    <style name="systemui_theme_light" parent="@android:style/Theme.Material" />
+    <style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.Material.Dialog" />
+    <style name="Theme.SystemUI.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert" />
+    <style name="TextAppearance.StatusBar.HeadsUp"
+        parent="@*android:style/TextAppearance.StatusBar">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.SystemPanel"
+        parent="@*android:style/TextAppearance.StatusBar">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffefefef</item>
+    </style>
+    <style name="RecentBaseStyle" parent="@android:style/Theme.Material">
+        <item name="android:popupMenuStyle">@android:style/Widget.Material.ListPopupWindow</item>
+    </style>
+</resources>
