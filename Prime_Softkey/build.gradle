@@ -99,9 +99,6 @@ android {
         Xperia {
             applicationId 'com.pierx.prime_softkey.Xperia'
         }
-        BabyMetal {
-            applicationId 'com.pierx.prime_softkey.BabyMetal'
-        }
     }
 }
 
